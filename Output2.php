@@ -18,7 +18,7 @@
         echo"<br> Jenis Kelamin : ".$jeniskelamin;
      }
      perkenalan("Moh Asep Muhammed",19,"L<br>");
-     perkenalan("Alfi Nur.D",20,"L");
-     perkenalan("Dia Dicksy.A",20,"L");
+     perkenalan("Alfi Nur.D",20,"L<br>");
+     perkenalan("Dia Dicksy.A",20,"L<br>");
 ?>
 </html>
