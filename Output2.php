@@ -11,16 +11,14 @@
 
 </body>
 <?php
-     function perkenalan($nama, $umur, $jeniskelamin, $alamat, $prodi)
+     function perkenalan($nama, $umur, $jeniskelamin)
      {
         echo"<br> Nama : ".$nama;
         echo"<br> Umur : ".$umur;
         echo"<br> Jenis Kelamin : ".$jeniskelamin;
-        echo"<br> Alamat : ".$alamat;
-        echo"<br> Prodi : ".$prodi;
      }
-     perkenalan("Moh Asep Muhammed",19,"L","Kab. Sampang","Teknik Informatika<br>");
-     perkenalan("Alfi Nur.D",20,"L","Sidoarjo","Teknik Informatika<br>");
-     perkenalan("Dia Dicksy.A",20,"L","Surabaya","Teknik Informatika<br>");
+     perkenalan("Moh Asep Muhammed",19,"L<br>");
+     perkenalan("Alfi Nur.D",20,"L");
+     perkenalan("Dia Dicksy.A",20,"L");
 ?>
 </html>
